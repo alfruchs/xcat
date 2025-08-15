@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
     <xt:extension id="xcat">
         <xt:location href="xcat.zip"/>
-        <xt:version>25.06.02</xt:version>
+        <xt:version>25.08.15</xt:version>
         <xt:oxy_version>14.0+</xt:oxy_version>
         <xt:type>framework</xt:type>
         <xt:author></xt:author>
