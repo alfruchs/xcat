@@ -1,0 +1,221 @@
+table > caption {
+    font-size: large;
+/*    border: 3px double black;*/
+    font-weight: bold;
+    padding: 3em;
+    background-color: #cceeb3;
+}
+body {
+    /*                             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    /*                         font-family: "Bodoni MT", Didot, "Century Schoolbook L", serif; */
+    line-height: 1.5;
+    background-color: #fdfdfd;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: auto;
+    width: 100%;
+}
+th,
+td {
+    border: 5px solid white;
+    border-collapse: collapse;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}/*
+tr:nth-child(even) > td.director-cell {
+    background: linear-gradient(to left, #cceeb3, white);
+}
+tr:nth-child(odd) > td.director-cell {
+    background: linear-gradient(to right, #cceeb3, white);
+}*/
+
+/* Director Cell Styling */
+td.director-cell {
+    /* 1. Use the same color as your Header (#cceeb3). 
+       This creates a visual "bracket" around the group of films. */
+    background-color: #cceeb3;
+    
+    /* 2. Align content to the top. 
+       This prevents the name from floating in the middle of a long list of films. */
+    vertical-align: top;
+    
+    /* 3. Optional: Add a subtle border to the right to separate it from the films */
+    border-right: 2px solid white;
+}
+/* 1. Highlights normal cells when their row is hovered */
+table tr.highlight-row td {
+    background: lightyellow;
+}
+
+/* 2. Highlights the director cell specifically (overriding gradient) */
+table tr td.director-cell.highlight-row {
+    background: lightyellow;
+}
+td.title-cell {
+
+}
+.position {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out 0.2s;
+    display: inline;
+    font-size: smaller;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: .2em;
+    padding: 3px;
+    pointer-events: none;
+}
+table.show-col .position,
+table.show-col .air {
+    opacity: 1;
+    pointer-events: auto; /* Allows text selection once visible */
+}
+.watched-date {
+    border: 1px solid grey;
+}
+
+.watched {
+    color: grey;
+}
+
+th {
+    background-color: #cceeb3;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #cceeb3;
+}
+td {
+    font-weight: normal;
+}
+a {
+    color: #1f4d1a;
+    text-decoration: none;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.4em;
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.director {
+    display: block;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+.single-title {
+    display: block;
+    padding: 5px;
+}
+.translation {
+    font-size: smaller;
+    font-style: italic;
+    text-align: right;
+}
+.translation::before {
+    content: " ";
+}
+.serial {
+    font-size: small;
+    color: grey;
+}
+.partial {
+    color: green;
+}
+.but-missing {
+    color: brown;
+}
+.storage {
+    font-size: large;
+}
+.season,
+.progress {
+    display: block;
+    font-size: smaller;
+    padding: 3px;
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+.alt-title {
+    display: block;
+    font-size: smaller;
+    padding: 3px;
+}
+.tooltip-title {
+    visibility: hidden; /* Hidden by default */
+    width: 130px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1; /* Ensure tooltip is displayed above content */
+}
+.alt-season:hover .tooltip-title {
+    visibility: visible;
+}
+.multiple-creator:hover .tooltip-title {
+    visibility: visible;
+}
+.air {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out 0.2s;
+    display: block;
+    font-size: smaller;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: .2em;
+    padding: 3px;
+    pointer-events: none;
+}
+tr:hover {
+    background: lightyellow !important;
+}
+.hidden-row {
+    display: none;
+}
+.filter-select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background-color: lightyellow;
+    cursor: pointer;
+    font-weight: bold;
+}
+#random-pick-btn {
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#random-pick-btn:hover {
+    background-color: #45a049;
+}
+
+/* 'Finder' state (active pick exists) */
+#random-pick-btn.finder-mode {
+    background-color: #ff9800; /* Orange */
+}
+
+#random-pick-btn.finder-mode:hover {
+    background-color: #e68a00;
+}
+
+/* Style for the selected row */
+.random-highlight td {
+    background-color: #fff3cd !important; /* Light yellow background */
+    border: 2px solid #ffc107 !important; /* Yellow border */
+    transition: background-color 0.3s;
+}
