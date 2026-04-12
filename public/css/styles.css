@@ -4,10 +4,10 @@
         line-height: 1.8;
     }
 
-    th.country-col,
+    th.country-head,
     td.country,
-    th.position-col,
-    td.position-cell {
+    th.index-head,
+    td.index-cell {
         display: none;
     }
 
