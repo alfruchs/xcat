@@ -7,7 +7,16 @@
     th.country-head,
     td.country,
     th.index-head,
-    td.index-cell {
+    td.index-cell,
+    th.show-storage-head,
+    td.show-storage,
+    th.show-creator-head,
+    td.show-creator,
+    th.show-stats-head,
+    td.show-stats,
+    th.show-aired-head,
+    td.show-aired
+    {
         display: none;
     }
 
