@@ -100,6 +100,7 @@ table tr td.director-cell.highlight-row {
 .composer {
     font-style: italic;
     display: block;
+    padding-left: 4em;
 }
 
 .position {
