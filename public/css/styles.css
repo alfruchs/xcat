@@ -92,6 +92,16 @@ table tr td.director-cell.highlight-row {
     background: lightyellow;
 }
 
+.separator {
+    display: block;
+    color: grey;
+}
+
+.composer {
+    font-style: italic;
+    display: block;
+}
+
 .position {
     opacity: 0;
     transition: opacity 0.3s ease-in-out 0.2s;
