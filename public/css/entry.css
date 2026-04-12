@@ -42,3 +42,10 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+a {
+    color: #1f4d1a;
+    text-decoration: none;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.4em;
+}
