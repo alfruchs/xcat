@@ -15,7 +15,11 @@
     th.show-stats-head,
     td.show-stats,
     th.show-aired-head,
-    td.show-aired
+    td.show-aired,
+    th.music-duration-head,
+    td.music-duration,
+    th.music-index-head,
+    td.music-index
     {
         display: none;
     }
@@ -138,6 +142,10 @@ a:hover {
     padding-top: 0.3em;
 }
 .single-title {
+    display: block;
+    padding: 5px;
+}
+.single-disc {
     display: block;
     padding: 5px;
 }
