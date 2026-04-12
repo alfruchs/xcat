@@ -78,9 +78,7 @@ table tr.highlight-row td {
 table tr td.director-cell.highlight-row {
     background: lightyellow;
 }
-td.title-cell {
 
-}
 .position {
     opacity: 0;
     transition: opacity 0.3s ease-in-out 0.2s;
