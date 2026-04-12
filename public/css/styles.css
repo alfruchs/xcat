@@ -148,6 +148,7 @@ a:hover {
 .single-disc {
     display: block;
     padding: 5px;
+    white-space: nowrap;
 }
 .translation {
     font-size: smaller;
