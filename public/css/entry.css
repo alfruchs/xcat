@@ -6,8 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #cceeb3;
     text-align: center;
     padding: 20px;
 }
@@ -25,7 +24,8 @@ main {
 
 .tile {
     flex: 1 0 300px;
-    background-color: #fff;
+    background: lightyellow;
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 10px;
@@ -37,8 +37,7 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #cceeb3;
     text-align: center;
     padding: 10px;
 }
