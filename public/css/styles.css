@@ -1,23 +1,23 @@
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Phone */
     body {
         font-size: 1.1em;
         line-height: 1.8;
     }
 
-    table th:nth-child(5), table td:nth-child(5), /* Country */
-    table th:nth-child(6), table td:nth-child(6)  /* Position/date */
-    {
+    th.country-col,
+    td.country,
+    th.position-col,
+    td.position-cell {
         display: none;
     }
 
-    /* Make filter selects easier to tap */
     .filter-select {
         font-size: 1em;
         padding: 8px;
     }
 
     a {
-        padding: 0.6em; /* larger tap target */
+        padding: 0.6em;
     }
 }
 
