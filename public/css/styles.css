@@ -131,6 +131,7 @@ table.show-col .air {
     font-size: smaller;
     font-style: italic;
     border: 1px solid grey;
+    padding: 3px;
 }
 
 th {
