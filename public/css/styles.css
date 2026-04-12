@@ -127,6 +127,12 @@ table.show-col .air {
     color: grey;
 }
 
+.poetry-span {
+    font-size: smaller;
+    font-style: italic;
+    border: 1px solid grey;
+}
+
 th {
     background-color: #cceeb3;
     font-weight: bold;
