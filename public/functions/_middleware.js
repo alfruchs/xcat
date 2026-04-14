@@ -1,6 +1,6 @@
 const CREDENTIALS = {
-    username: 'foxle',
-    password: 'R.Jordan'
+    username: 'afuchs',
+    password: 'Rich in hay.'
 };
 
 export default {
