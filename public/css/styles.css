@@ -164,6 +164,7 @@ a:hover {
     padding: 5px;
 }
 .work {
+    display: block;
     padding-left: 3em;
 }
 .general-title {
