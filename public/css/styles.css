@@ -162,9 +162,10 @@ a:hover {
 .single-title {
     display: block;
     padding: 5px;
+}
+.work {
     margin-left: 3em;
 }
-
 .general-title {
     font-variant-caps: small-caps;
     display: block;
