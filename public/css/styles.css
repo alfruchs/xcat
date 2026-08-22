@@ -163,6 +163,12 @@ a:hover {
     display: block;
     padding: 5px;
 }
+
+.general-title {
+    font-variant-caps: small-caps;
+    display: block;
+    padding: 5px;
+}
 .single-disc {
     display: block;
     padding: 5px;
